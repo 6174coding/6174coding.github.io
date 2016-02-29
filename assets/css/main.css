@@ -1090,10 +1090,12 @@
 
 	a {
 		text-decoration: underline;
+		transition: color 0.25s;
 	}
 
 		a:hover {
 			text-decoration: none;
+			color: red;
 		}
 
 	section > :last-child,
