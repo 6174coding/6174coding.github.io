@@ -19,10 +19,7 @@
 
 	p#colors {
 		background-color: red;
-		-webkit-transition: 1s color;
-		-moz-transition: 1s color;
-		-o-transition: 1s color;
-		transition: 1s color;
+		transition: 1s background-color;
 	}
 
 	p#colors:hover {
