@@ -28,12 +28,12 @@
 		color: white;
 	}
 
-	a#navilinks {
+	a.navilinks {
 		color: white;
 		transition: 0.5s color;
 	}
 
-	a#navilinks:hover {
+	a.navilinks:hover {
 		color: red;
 	}
 
