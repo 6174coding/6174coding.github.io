@@ -17,12 +17,12 @@
 		vertical-align: baseline;
 	}
 
-	p.colors {
+	p#colors {
 		background-color: red;
 		transition: 1s color;
 	}
 
-	p.colors:hover {
+	p#colors:hover {
 		background-color: #7f3fb2;
 	}
 
