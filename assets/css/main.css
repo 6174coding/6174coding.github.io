@@ -29,12 +29,14 @@
 	}
 
 	a.navilinks {
+		text-decoration: none;
 		color: white;
 		transition: 0.5s color;
 	}
 
 	a.navilinks:hover {
 		color: red;
+		text-decoration: none;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
