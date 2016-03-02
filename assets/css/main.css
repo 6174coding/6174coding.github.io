@@ -1090,6 +1090,7 @@
 
 	a {
 		text-decoration: underline;
+		color: white;
 		transition: color 0.5s;
 	}
 
