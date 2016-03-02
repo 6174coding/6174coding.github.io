@@ -28,6 +28,15 @@
 		color: white;
 	}
 
+	a#navilinks {
+		color: white;
+		transition: 0.5s color;
+	}
+
+	a#navilinks:hover {
+		color: red;
+	}
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -1101,14 +1110,7 @@
 
 	a {
 		text-decoration: underline;
-		color: white;
-		transition: color 0.5s;
 	}
-
-	a:hover {
-				text-decoration: none;
-				color: red;
-			}
 
 	section > :last-child,
 	.last-child {
