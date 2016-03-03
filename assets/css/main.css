@@ -39,6 +39,21 @@
 		text-decoration: none;
 	}
 
+	a#rainbow {
+		color: red;
+		-webkit-animation: rainbow 7s linear infinite forwards;
+	}
+
+	@keyframes rainbow {
+		0%	{color:red;}
+		12%	{color:yellow;}
+		25%	{color:lime;}
+		37%	{color:#00ffff;}
+		50%	{color:blue;}
+		75%	{color:#ff00ff;}
+		100% {color:red;}
+	}
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
