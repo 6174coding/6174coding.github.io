@@ -41,7 +41,7 @@
 
 	a#rainbow {
 		color: red;
-		-webkit-animation: rainbow 7s linear infinite forwards;
+		-webkit-animation: rainbow 14s linear infinite forwards;
 	}
 
 	@keyframes rainbow {
