@@ -54,6 +54,25 @@
 		100% {color:red;}
 	}
 
+	a.bordered-feature-imagee p {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		text-align: center;
+		line-height: 200px;
+		background-color: white;
+		color: black;
+		opacity: 0;
+		height: 205px;
+		transition: 0.5s opacity;
+	}
+
+	a.bordered-feature-imagee:hover p {
+		opacity: 1;
+	}
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -1226,12 +1245,13 @@
 		}
 
 	.bordered-feature-imagee {
-		display: block;
+		display: inline-block;
 		background: #fff url("images/bg04.png");
 		padding: 10px;
 		box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
 		margin: 0 0 1.5em 0;
 		outline: 0;
+		position: relative;
 	}
 
 		.bordered-feature-imagee img {
