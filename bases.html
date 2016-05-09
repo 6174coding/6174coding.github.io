@@ -12,6 +12,11 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<script type="text/javascript">
+		function Result(){
+			document.getElementById("colors").innerHTML = "Hover over me to see final result"
+		}
+		</script>
 	</head>
 	<body class="subpage">
 		<div id="page-wrapper">
@@ -61,7 +66,7 @@
 											<p>
 												Have you ever heard about this computer term: hex colors? This is basically what computers use to interpret colors. They interpret colors using numbers in hexadecimal, hence the name "hex colors". How it works is that each color is assigned 6 digits (not randomly), with the first two representing the amount of red that is in the color, the middle two for how much green, and the last two for how much blue. For example, the color #7f3fb2 contains 7f red, 3f green, and b2 blue. We can convert this back to base 10 to understand base 16 more. You know how the tens digit in base 10 represents how many tens there are in the number? Well, the "tens" digit in base 16 represents how my sixteens there are in the number. We can deduce that the color has (16 * 7) + 15 red, (16 * 3) + 15 green, and (16 * 11) + 2 blue. Simplifying that, we get 127 red, 63 green, and 178 blue. Let's see the final result.
 											</p>
-											<p id="colors">Hover over me to see final result</p>
+											<p id="colors" onmouseover="Result">Hover over me to see final result</p>
 											<p>
 												So, that's about all for bases. Was that a good discovery just now? Bet it was.
 											</p>

@@ -1186,6 +1186,8 @@
 
 		.quote-list li img {
 			float: left;
+			height: 70px;
+			width: 70px;
 		}
 
 		.quote-list li p {
@@ -1241,7 +1243,7 @@
 		.bordered-feature-image img {
 			display: block;
 			width: 100%;
-			height: 370px;
+			height: 390px;
 		}
 
 	.bordered-feature-imagee {
